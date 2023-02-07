@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,500&display=swap');
+
+
+*{
+    font-family: inherit;
+}
+body{
+    background: rgba(65,87,118,0.03);
+    font-family: Poppins, sans-serif;    
+}
+
+#navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 80px;
+    line-height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.15);
+    width: 100%;
+    z-index: 0;
+    vertical-align: middle;
+    padding: 0 70px;
+}
+
+.nav-logo{
+    font-size: 25px;     
+}
+
+#main-content{
+    padding-top: 80px;
+}
+
+.section-form{
+    padding: 70px 0;
+}
+.form-outer{
+    background: rgba(255,255,255,0.90);
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.15);
+    border-radius: 5px;
+    padding: 47px;
+}
+
+.input-group{
+    margin-bottom: 25px;
+}
+
+.mb-0{
+    margin-bottom: 0;
+}
+
+.txt{
+    font-size: 14px;
+    background: rgba(169,169,169,0.10);
+    border: solid 1px transparent;
+    border-radius: 5px;
+    width: 100%;
+    padding: 12px 20px;
+    outline: none !important;
+}
+
+.txt:focus{
+    background: #FFF;
+    border-color: rgba(169,169,169,0.4);
+}
+
+.btn{
+    padding: 9px 15px;
+    background: #3E5370;
+    border-radius: 3px;
+    color: #FFF;
+    transition: transform .3s ease, opacity .3s ease;
+    outline: none !important;
+    box-shadow: none !important;
+    font-size: 14px;
+    text-align: center;
+}
+
+.btn:hover{
+    color: #FFF;
+}
+
+.btn:active{
+    transform: translateY(1px);
+    opacity: .8;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a.forgot{
+    opacity: 0.8;
+    font-size: 12px;
+    color: #415776;
+    letter-spacing: 0;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 2px;
+}
+a.forgot:hover{
+    text-decoration: underline;
+}
+
+.form-nav{
+    position: relative;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 0;
+}
+.form-nav > li{
+    display: inline-block;
+}
+.form-nav > li > a{
+    opacity: 0.35;
+    font-weight: 600;
+    font-size: 12px;
+    color: #0D132D;
+    letter-spacing: 2.33px;
+    text-transform: uppercase;
+    margin: 0 17px;
+    text-decoration: none;
+}
+.form-nav > li > a:hover{
+    opacity: .6;
+}
+.form-nav > li > a.active{
+    font-size: 16px;
+    color: #0D132D;
+    letter-spacing: 3px;
+    opacity: 1;
+    text-decoration: none;
+}
+
+
+
+
+    
+
+    
